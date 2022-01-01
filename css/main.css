@@ -1,79 +1,124 @@
+html,
+body{
+width:100%;
+overflow-x:hidden;
+}
+
+#shuva {
+    font-size: 4.5rem;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+    #shuva {
+        font-size: 6rem;
+        font-weight: 300;
+    }
+}
+
 header {
     background: #111;
     width: 100%;
-    height: 100px;
+    height: 50px;
 }
 
-.page-wrap {
-    padding: 2rem 0;
-}
 
-header .top-bar {
-    list-style-type: none;
+/* CSS for Menu  */
+/* TODO: Move the menu in middle */
+/* TODO: Make it responsive */
+div.nav-menu {
+    background: #111;
+}
+div.nav-menu ul {
+    list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
 }
-
-header .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+div.nav-menu li {
+    line-height: 1.7;
 }
-
-header .top-bar li a {
-    padding: 0.25rem 1rem;
-    color: white;
-}
-header .top-bar li {
-    position: relative;
-}
-
-header .top-bar li:first-child a {
-    padding-left: 0;
-}
-
-header .top-bar li:last-child a {
-    padding-right: 0;
-}
-
-header .top-bar li .sub-menu {
-    display: none;
-    position: absolute;
-    z-index: 99;
-    top: 100%;
-    left: 0;
-    background: #fff;
-    box-shadow: 1px 1px 10px rgb(0,0,0,0.1);
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    width: 200px;
-    border-radius: .5rem;
-}
- 
-header .top-bar li .sub-menu a {
-    color: red;
-    padding: .25rem;
-    text-align: center;
-    display: block;
+div.nav-menu a {
+    color: #fff;
     text-decoration: none;
-}
-
-header .top-bar li .sub-menu a:hover{
-    color: black;
-}
-
-header .top-bar > .menu-item-has-children:hover > .sub-menu {
     display: block;
 }
-
-header .top-bar .menu-item-has-children .sub-menu > .menu-item-has-children:hover .sub-menu {
-    display: block;
+div.nav-menu > ul > li {
+    float: left;
+}
+div.nav-menu > ul > li > a{
+    padding: 10px 10px;
+}
+div.nav-menu > ul > li:hover > a{
+    background: #333;
 }
 
-header .top-bar .sub-menu li .sub-menu {
-    top:0;
-    left: 100%;
-} 
+/* Comment */
+#respond {
+    text-align: center;
+}
+
+/* Section CSS */
+#whoami {
+    color: #fff;
+    background: #135ca7;
+    /* height: 500px; */
+    padding: 150px 0px 150px 0px
+}
+
+#blog {
+    /* color: #fff; */
+    /* background: #e5e0e0; */
+    /* height: 500px; */
+    padding: 50px 0px 150px 0px
+}
+
+/* Blog Content */
+#blog-content {
+    font-size: 20px;
+}
+
+/* typewritter css */
+
+.output {
+text-align:center;
+font-family: 'Source Code Pro', monospace;
+color:white;
+h1 {
+    font-size:30px;
+}
+}
+
+/* Cursor Styling */
+
+.cursor::after {
+content:'';
+display:inline-block;
+margin-left:3px;
+background-color:white;
+animation-name:blink;
+animation-duration:0.5s;
+animation-iteration-count: infinite;
+}
+h1.cursor::after {
+height:24px;
+width:13px;
+}
+p.cursor::after {
+height:13px;
+width:6px;
+}
+
+@keyframes blink {
+0% {
+    opacity:1;
+}
+49% {
+    opacity:1;
+}
+50% {
+    opacity:0;
+}
+100% {
+    opacity:0;
+}
+}

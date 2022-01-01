@@ -1,22 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?> >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <?php wp_head(); ?>
+	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<?php wp_head(); ?>
 </head>
-<body>
 
-<header>
-    <div class="container">
-    <?php 
-    wp_nav_menu(
-        array(
-            'theme_location' => 'top-menu',
-            'menu_class' => 'top-bar'
-        )
-    ); 
-    ?>
-    </div>
-</header>
+<body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
+<div id="page" class="site">
+	<?php get_template_part( 'template-parts/header/site-header' ); ?>
+
+	<div id="content" class="site-content">
+		<div id="primary" class="content-area">
+			<main id="main" class="site-main" role="main">
