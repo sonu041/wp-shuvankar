@@ -20,8 +20,8 @@
 	</div>
 </section>
 
-<!-- When Section -->
-<section class="success" id="blog">
+<!-- Blog Section -->
+<section id="blog">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
@@ -40,7 +40,50 @@
 				?>
 			</div>
 		</div>
-		<br/></br><br/></br><br/></br>
+	</div>
+</section>
+
+<!-- Experience Section -->
+<section id="tools">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2 class="display-3">Tools and Technology</h2>
+				<ul class="cloud" role="navigation" aria-label="Webdev tag cloud">
+					<li><a data-weight="7" href="#tools">PHP</a></li>
+					<li><a data-weight="8" href="#tools">HTML</a></li>
+					<li><a data-weight="6" href="#tools">Flutter</a></li>
+					<li><a data-weight="5" href="#tools">REST</a></li>
+					<li><a data-weight="9" href="#tools">Java</a></li>
+					<li><a data-weight="6" href="#tools">.Net</a></li>
+					<li><a data-weight="5" href="#tools">Python</a></li>
+					<li><a data-weight="9" href="#tools">C#</a></li>
+					<li><a data-weight="8" href="#tools">CSS</a></li>
+					<li><a data-weight="6" href="#tools">Jquery</a></li>
+					<li><a data-weight="7" href="#tools">Oracle</a></li>
+					<li><a data-weight="6" href="#tools">SQL</a></li>
+					<li><a data-weight="9" href="#tools">Git</a></li>
+					<li><a data-weight="4" href="#tools">Jenkins</a></li>
+					<li><a data-weight="5" href="#tools">Jira</a></li>
+					<li><a data-weight="3" href="#tools">OCI</a></li>
+					<li><a data-weight="5" href="#tools">MySql</a></li>
+					<li><a data-weight="4" href="#tools">VBA</a></li>
+					<li><a data-weight="3" href="#tools">Android</a></li>
+					<li><a data-weight="6" href="#tools">Excel</a></li>
+					<li><a data-weight="5" href="#tools">Informatica</a></li>
+					<li><a data-weight="4" href="#tools">Tableau</a></li>
+					<li><a data-weight="7" href="#tools">Javascript</a></li>
+					<li><a data-weight="5" href="#tools">SOLR</a></li>
+					<li><a data-weight="6" href="#tools">Redis</a></li>
+					<li><a data-weight="5" href="#tools">Burpsuite</a></li>
+					<li><a data-weight="6" href="#tools">Angular</a></li>
+					<li><a data-weight="3" href="#tools">VB</a></li>
+					<li><a data-weight="5" href="#tools">SQLServer</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-12 text-right">*Level of expertise depends on the size of the text</dev>
+		</div>
+		<br/></br>
 	</div>
 </section>
 

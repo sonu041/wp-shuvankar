@@ -8,8 +8,8 @@ var i = 0,
 // Typerwrite text content. Use a pipe to indicate the start of the second line "|". 
 // Sample:  "What do you call an alligator wearing a vest?|An Investigator"
 var textArray = [
-  "Application Developer",
-  "UI Designer",
+  "Software Engineer",
+  "Web Developer",
   "Security Enthusiast",
   "Tech Lead",
   "Father",
