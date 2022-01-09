@@ -31,7 +31,7 @@
 					// Load posts loop.
 					while ( have_posts() ) {
 						the_post();
-						the_title( sprintf( '<h5 class="entry-title default-max-width"><a href="%s">', esc_url( get_permalink() ) ), '</a></h5>' );
+						the_title( sprintf( '<h5 class="entry-title default-max-width"><a href="%s"><li>', esc_url( get_permalink() ) ), '</li></a></h5>' );
 					}
 				} else {
 					// If no content, include the "No posts found" template.
@@ -129,7 +129,64 @@
 			<div class="col-lg-3 text-center">
 			</div>
 		</div>
-		<br/></br>
+	</div>
+</section>
+
+<!-- Apps -->
+<section id="apps">
+	<div class="container">
+		<div class="row pt-3 pb-3">
+			<div class="col-lg-4">
+			<h2 class="display-4 text-center">Apps</h2>
+				<ul>
+					<li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.shuvankar.wasticker&hl=en_IN&gl=US">BongStick - Bengali WAStickerApps</a></li>
+					<li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.shuvankarsarkar.ctfcapturetheflag&hl=en_IN&gl=US">CTF - Capture The Flag</a></li>
+					<li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.shuvankar.engostick&hl=en_IN&gl=US">EngoStick - English WAStickerApps</a></li>
+					<li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.shuvankar.hindistick&hl=en_IN&gl=US">HindiStick - Hindi WAStickerApps</a></li>
+					<li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.shuvankar.shuveccha&hl=en_IN&gl=US">Shuveccha - WA Bengali sticker</a></li>
+					<li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.shuvankar.statshak&hl=en_IN&gl=US">Statshak - Status Saver</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-4 text-center">
+				<h2 class="display-4 text-center">Online CV</h2>
+				<a target="_blank" href="cv">
+					<img src="images/Online_CV.PNG" alt="Online-CV" width="300">
+				</a>
+			</div>
+			<div class="col-lg-4">
+				<h2 class="display-4 text-center">Book Review</h2>
+				<ul>
+					<li><a target="_blank" href="https://www.google.co.in/books/edition/PhpStorm_Cookbook/8cwGBgAAQBAJ?hl=en&gbpv=1&dq=Shuvankar+Sarkar&pg=PT21&printsec=frontcover">PhpStorm Cookbook</a></li>
+					<li><a target="_blank" href="https://www.google.co.in/books/edition/PHP_7_Programming_Blueprints/dJncDgAAQBAJ?hl=en&gbpv=1&dq=Shuvankar+Sarkar&pg=PP6&printsec=frontcover">PHP 7 Programming Blueprints</a></li>
+					<li><a target="_blank" href="https://www.google.co.in/books/edition/Building_RESTful_Web_Services_with_PHP_7/xJlGDwAAQBAJ?hl=en&gbpv=1&dq=Shuvankar+Sarkar&pg=PP6&printsec=frontcover">Building RESTful Web Services with PHP 7</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Contacts -->
+<section id="contact">
+	<div class="container">
+		<div class="row pt-3 pb-3">
+			<div class="col-lg-12 text-center">
+				<a target="_blank" href="mailto:shuvankarsarkarhihi@gmail.com">
+					<img src="images/Email-Icon.png" alt="email">
+				</a>
+				<a target="_blank" href="https://www.linkedin.com/in/shuvankarsarkar/">
+					<img src="images/Linkedin.png" alt="linkedin">
+				</a>
+				<a target="_blank" href="https://www.instagram.com/sonu041/?hl=en">
+					<img src="images/Instagram-Icon.png" alt="instagram">
+				</a>
+				<a target="_blank" href="https://twitter.com/sonu041">
+					<img src="images/Twitter-Icon.png" alt="twitter">
+				</a>
+				<a target="_blank" href="https://github.com/sonu041">
+					<img src="images/Github-Icon.png" alt="github">
+				</a>
+			</div>
+		</div>
 	</div>
 </section>
 

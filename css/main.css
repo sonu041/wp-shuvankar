@@ -80,12 +80,19 @@ div.nav-menu > ul > li:hover > a{
 /* Tools Section */
 #tools {
     background: #d1e1f1;
-    padding: 50px 0px 50px 0px
+    padding: 50px 0px 50px 0px;
 }
 
 /* Certification Section */
 #certification {
-    padding: 50px 0px 50px 0px
+    padding: 50px 0px 50px 0px;
+}
+
+/* Certification Section */
+#apps {
+    background: #083864;
+    padding: 50px 0px 50px 0px;
+    color: #fff;
 }
 
 /* typewritter css */
@@ -224,3 +231,5 @@ ul.cloud {
 .font-8vw {
     font-size:8vw;
 }
+
+.grecaptcha-badge { visibility: hidden; }
