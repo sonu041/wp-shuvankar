@@ -83,15 +83,17 @@ div.nav-menu > ul > li:hover > a{
     padding: 50px 0px 50px 0px
 }
 
+/* Certification Section */
+#certification {
+    padding: 50px 0px 50px 0px
+}
+
 /* typewritter css */
 
 .output {
 text-align:center;
 font-family: 'Source Code Pro', monospace;
 color:white;
-h1 {
-    font-size:30px;
-}
 }
 
 /* Cursor Styling */
@@ -213,9 +215,12 @@ ul.cloud * {
 }
 
 @media screen and (max-width: 768px) {
-
 ul.cloud {
-    line-height: 3rem;
+    line-height: 3.5rem;
     }
 
+}
+
+.font-8vw {
+    font-size:8vw;
 }
