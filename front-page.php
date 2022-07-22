@@ -108,7 +108,7 @@
 				</a>
 			</div>
 			<div class="col-lg-3 text-center">
-				<a target="_blank" href="#">
+				<a target="_blank" href="https://www.credential.net/fb1e83c1-9cea-40e3-b863-2c743209b244">
 					<img src="images/Google-Play.png" alt="Google-Play" width="200" height="200">
 				</a>
 			</div>
