@@ -152,6 +152,7 @@
 				<a target="_blank" href="cv">
 					<img src="images/Online_CV.PNG" alt="Online-CV" width="300">
 				</a>
+				<a href="https://github.com/sonu041/CV/raw/main/ShuvankarSarkar_CV.pdf">Download PDF Version CV</a>
 			</div>
 			<div class="col-lg-4">
 				<h2 class="display-4 text-center">Book Review</h2>
