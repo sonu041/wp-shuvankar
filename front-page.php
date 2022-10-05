@@ -94,7 +94,7 @@
 		<h2 class="display-2 text-center font-8vw">Certification</h2>
 		<div class="row pt-3 pb-3">
 			<div class="col-lg-3 text-center">
-				<a target="_blank" href="#">
+				<a target="_blank" href="https://www.credential.net/d0f78df4-3b67-43a4-bf04-4ca749ae8600">
 					<img src="images/GCP-ACE_Logo.png" alt="GCP-ACE" width="200" height="200">
 				</a>
 			</div>
@@ -137,6 +137,7 @@
 				</a>
 			</div>
 		</div>
+		<h2 class="text-center"><a href="certificates/">All Certificates</a></h2>
 	</div>
 </section>
 
