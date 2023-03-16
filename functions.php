@@ -21,6 +21,9 @@ function load_js()
 
     wp_register_script( 'typewritter', get_template_directory_uri().'/js/typewritter.js', 'typewritter', '1.0.0', true);
     wp_enqueue_script( 'typewritter');
+
+    wp_register_script( 'newrelic', get_template_directory_uri().'/js/newrelic.js', 'newrelic', '1.0.0', true);
+    wp_enqueue_script( 'newrelic');
 }
 add_action( 'wp_enqueue_scripts', 'load_js');
 
