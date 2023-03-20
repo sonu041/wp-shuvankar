@@ -94,6 +94,11 @@
 		<h2 class="display-2 text-center font-8vw">Certification</h2>
 		<div class="row pt-3 pb-3">
 			<div class="col-lg-3 text-center">
+				<a target="_blank" href="https://www.credential.net/19066c94-b2b1-4b8c-825b-53b2a9fdd77d">
+					<img src="images/GCP-PCA_Logo.png" alt="GCP-PCA" width="200" height="200">
+				</a>
+			</div>
+			<div class="col-lg-3 text-center">
 				<a target="_blank" href="https://www.credential.net/d0f78df4-3b67-43a4-bf04-4ca749ae8600">
 					<img src="images/GCP-ACE_Logo.png" alt="GCP-ACE" width="200" height="200">
 				</a>
@@ -108,14 +113,13 @@
 					<img src="images/OCI_Foundation_2021.jpg" alt="OCI_Foundation" width="200" height="200">
 				</a>
 			</div>
+		</div>
+		<div class="row pt-3 pb-3">
 			<div class="col-lg-3 text-center">
 				<a target="_blank" href="https://www.credly.com/badges/32ba401c-451d-40fb-8bde-054d4e59f560/public_url">
 					<img src="images/BADGES_FINAL_PSM-I_600.png" alt="PSM-I" width="200" height="200">
 				<a>
 			</div>
-			
-		</div>
-		<div class="row pt-3 pb-3">
 			<div class="col-lg-3 text-center">
 				<a target="_blank" href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=wROWxqVXfkMwU0h7ibS0swOpqP2BFvcry9buh1Xkvxc=">
 					<img src="images/CEH_2E345519D3F7.png" alt="CEH" width="200" height="200">
@@ -131,6 +135,8 @@
 					<img src="images/MCSD_App_Builder_2017-01.png" alt="MCSD" width="200" height="200">
 				</a>
 			</div>
+		</div>
+		<div class="row pt-3 pb-3">
 			<div class="col-lg-3 text-center">
 				<a target="_blank" href="https://www.credly.com/badges/5e6734d5-cf66-4342-bda2-573e89ca0fe5/public_url">
 					<img src="images/MCSA_Web_Applications_2017-01.png" alt="MCSA" width="200" height="200">
