@@ -17,11 +17,14 @@ overflow-x:hidden;
 }
 
 header {
-    background: #111;
+    /* background: #111; */
     width: 100%;
     height: 50px;
 }
 
+#masthead {
+    background: #111;
+}
 
 /* CSS for Menu  */
 /* TODO: Move the menu in middle */

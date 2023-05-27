@@ -38,6 +38,7 @@
 					get_template_part( 'template-parts/content/content-none' );
 				}
 				?>
+				<?php get_search_form(); ?>
 			</div>
 		</div>
 	</div>
