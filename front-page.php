@@ -39,6 +39,7 @@
 				}
 				?>
 				<?php get_search_form(); ?>
+				<a href="all-posts/">All Posts</a> 
 			</div>
 		</div>
 	</div>
