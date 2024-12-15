@@ -80,8 +80,8 @@
 					<li><a data-weight="5" href="#tools">Burpsuite</a></li>
 					<li><a data-weight="3" href="#tools">VBA</a></li>
 					<li><a data-weight="5" href="#tools">SQLServer</a></li>
-					<li><a data-weight="7" href="#tools">NewRelic</a></li>
-					<li><a data-weight="3" href="#tools">GoogleCloud</a></li>
+					<li><a data-weight="4" href="#tools">NewRelic</a></li>
+					<li><a data-weight="7" href="#tools">GoogleCloud</a></li>
 				</ul>
 			</div>
 			<div class="col-lg-12 text-right">*Level of expertise depends on the size of the text</dev>
@@ -96,27 +96,33 @@
 		<h2 class="display-2 text-center font-8vw">Certification</h2>
 		<div class="row pt-3 pb-3">
 			<div class="col-lg-3 text-center">
-				<a target="_blank" href="https://www.credential.net/19066c94-b2b1-4b8c-825b-53b2a9fdd77d">
+				<a target="_blank" href="https://www.credly.com/badges/20eb211e-9082-46d4-823f-2493ef4b3b2f/public_url">
+					<img src="images/GCP-PCD_Logo.png" alt="GCP-PCD" width="200" height="200">
+				</a>
+			</div>
+			<div class="col-lg-3 text-center">
+				<a target="_blank" href="https://www.credly.com/badges/65b16994-37c5-4437-b640-95fa18cfb0d5/public_url">
 					<img src="images/GCP-PCA_Logo.png" alt="GCP-PCA" width="200" height="200">
 				</a>
 			</div>
 			<div class="col-lg-3 text-center">
-				<a target="_blank" href="https://www.credential.net/d0f78df4-3b67-43a4-bf04-4ca749ae8600">
+				<a target="_blank" href="https://www.credly.com/badges/5d1c4c6f-7d5d-4c8b-a252-14fb875ac4f6/public_url">
 					<img src="images/GCP-ACE_Logo.png" alt="GCP-ACE" width="200" height="200">
 				</a>
 			</div>
 			<div class="col-lg-3 text-center">
-				<a target="_blank" href="https://www.credential.net/cdbcd9f7-513a-4899-976d-5dc795e6a2be">
+				<a target="_blank" href="https://www.credly.com/badges/3303ca53-b40f-4e29-b6f1-bf545e08bba4/public_url">
 					<img src="images/GCP-CDL_Logo.png" alt="GCP-CDL" width="200" height="200">
 				</a>
 			</div>
+			
+		</div>
+		<div class="row pt-3 pb-3">
 			<div class="col-lg-3 text-center">
 				<a target="_blank" href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=854A64A9373B6EC1042CB5B34F947F5C8F30B5484CB9609E6CE4454C7143A332">
 					<img src="images/OCI_Foundation_2021.jpg" alt="OCI_Foundation" width="200" height="200">
 				</a>
 			</div>
-		</div>
-		<div class="row pt-3 pb-3">
 			<div class="col-lg-3 text-center">
 				<a target="_blank" href="https://www.credly.com/badges/32ba401c-451d-40fb-8bde-054d4e59f560/public_url">
 					<img src="images/BADGES_FINAL_PSM-I_600.png" alt="PSM-I" width="200" height="200">
@@ -132,13 +138,13 @@
 					<img src="images/Google-Play.png" alt="Google-Play" width="200" height="200">
 				</a>
 			</div>
+		</div>
+		<div class="row pt-3 pb-3">
 			<div class="col-lg-3 text-center">
 				<a target="_blank" href="https://www.credly.com/badges/aebbb0d9-015a-4878-9ddd-373fe63abe6e/public_url">
 					<img src="images/MCSD_App_Builder_2017-01.png" alt="MCSD" width="200" height="200">
 				</a>
 			</div>
-		</div>
-		<div class="row pt-3 pb-3">
 			<div class="col-lg-3 text-center">
 				<a target="_blank" href="https://www.credly.com/badges/5e6734d5-cf66-4342-bda2-573e89ca0fe5/public_url">
 					<img src="images/MCSA_Web_Applications_2017-01.png" alt="MCSA" width="200" height="200">
